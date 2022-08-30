@@ -1,0 +1,4 @@
+{
+  "name": "@atlaskit/media-card/classnames",
+  "types": "../dist/types/classnames.d.ts"
+}

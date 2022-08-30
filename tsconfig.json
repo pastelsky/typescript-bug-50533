@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "strict": true,
+    "declaration": true,
+    "moduleResolution": "node",
+    // Disallow features that require cross-file information for emit
+    "isolatedModules": true,
+    // We default to targetting es2019 so that IDE's will perform the stricter checks that they do
+    // for es2019 (reason is unkown for why targeting es2019 is stricter...)
+    "target": "es2019",
+    "module": "esnext",
+  },
+  "include": [
+    "src/**/*.ts",
+  ],
+  "compilerOptions": {
+    "outDir": "dist",
+    "baseUrl": "./"
+  },
+}
